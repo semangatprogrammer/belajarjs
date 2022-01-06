@@ -1,0 +1,11 @@
+langkah membuat file
+1. untuk cek init, command
+   git status
+2. untuk add file
+   git add <nama file>
+3. untuk setting koneksi ke github
+   git config --global user.email "your@email.com"
+   git config --global user.name "your name"
+4. selalu cek pada git status untuk di add
+5. lakukan git commit setelahnya
+   git commit -m "menambahkan fil apa"
