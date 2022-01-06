@@ -15,3 +15,9 @@ langkah membuat file
    git log
    untuk lihat 5 kebelakang
    git log -3
+   atau untuk melihat spesifik
+   git log --namafile
+7. untuk mengembalikan file atau ke commit sebelumnya maka ketikkan
+   git checkout <5 digit kode comit> --namafile, contohnya
+   git checkout 7667b --style.css
+8. menambahkan cara exit tulis !q
