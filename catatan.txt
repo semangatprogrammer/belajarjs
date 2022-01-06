@@ -3,6 +3,8 @@ langkah membuat file
    git status
 2. untuk add file
    git add <nama file>
+   kalau nanti banyak cukup dengan buat
+   git add .
 3. untuk setting koneksi ke github
    git config --global user.email "your@email.com"
    git config --global user.name "your name"
