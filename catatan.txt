@@ -21,4 +21,3 @@ langkah membuat file
    git checkout <5 digit kode comit> --namafile, contohnya
    git checkout 7667b --style.css
 8. menambahkan cara exit tulis !q
-9. dll
