@@ -11,3 +11,7 @@ langkah membuat file
 4. selalu cek pada git status untuk di add
 5. lakukan git commit setelahnya
    git commit -m "menambahkan fil apa"
+6. cara cek log aktivity
+   git log
+   untuk lihat 5 kebelakang
+   git log 5
