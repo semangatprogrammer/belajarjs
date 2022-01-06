@@ -14,4 +14,4 @@ langkah membuat file
 6. cara cek log aktivity
    git log
    untuk lihat 5 kebelakang
-   git log 5
+   git log -3
