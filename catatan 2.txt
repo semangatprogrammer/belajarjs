@@ -11,3 +11,7 @@
 
 4. git status akan muncul with origin master
    git status
+
+5. untuk cek grap
+   alias graph="git log --a --decorate --oneline --graph"
+   
