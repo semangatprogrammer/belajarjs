@@ -13,5 +13,12 @@
    git status
 
 5. untuk cek grap
-   alias graph="git log --a --decorate --oneline --graph"
-   
+   alias graph="git log --all --decorate --oneline --graph"
+   graph
+
+6. cek list pada git
+   git config --list
+
+
+
+
