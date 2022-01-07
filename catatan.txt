@@ -20,4 +20,4 @@ langkah membuat file
 7. untuk mengembalikan file atau ke commit sebelumnya maka ketikkan
    git checkout <5 digit kode comit> --namafile, contohnya
    git checkout 7667b --style.css
-8. menambahkan cara exit tulis !q
+8. menambahkan cara exit tulis !q.
