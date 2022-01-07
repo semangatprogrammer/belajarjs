@@ -1,5 +1,5 @@
 langkah membuat file
-1. untuk cek init, command
+1. untuk membuat repo cek init, command
    git status
 2. untuk add file
    git add <nama file>
