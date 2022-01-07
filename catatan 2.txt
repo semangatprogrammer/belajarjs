@@ -1,0 +1,13 @@
+1. untuk remote ke server
+   git clone http://aaaa
+
+2. untuk cek remote
+   git remote
+   nanti akan muncul origin
+
+3. melihat data lebih detail
+   git remote -v
+   akan keluar fetch dan push
+
+4. git status akan muncul with origin master
+   git status
