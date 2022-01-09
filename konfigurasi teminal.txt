@@ -1,0 +1,16 @@
+1. buka terminal di menu terminal, dan pilih konfigure terminal
+2. masukkan tulisan berikut ini
+{
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "workbench.editor.enablePreview": false,
+
+    "terminal.integrated.profiles.windows": {
+      "Bash": {
+        "path": "D:\\APP\\Git\\bin\\bash.exe",
+        "args": ["-l"]      }
+    },
+    "terminal.integrated.defaultProfile.windows": "Bash",
+
+}
+3 untuk default bisa klik pada terminal di menu bawah dan klik select default dan nanti otomatis masuk ke tulisan
