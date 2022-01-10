@@ -1,0 +1,12 @@
+cara cmd atau git bash
+1. untuk membuat file yaitu
+   touch namafile
+2. cara lihat file ls (semua file di folder ) atau ll(lengkap dengan hak akses)
+   ls
+   ll
+3. cara buka file
+   vi namafile
+4. ketika ingin menulis di file tersebut, tekan i dan tuliskan
+5. cara keluar dari folder
+   tekan esc dan tuliskan
+   :wq

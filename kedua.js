@@ -3,3 +3,7 @@ const ucapan = function (apa){
 };
 
 console.log(ucapan);
+let nama = 'kayyisa ali';
+console.log(`selamat datang {nama}`);
+
+
