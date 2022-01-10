@@ -6,7 +6,26 @@ cara cmd atau git bash
    ll
 3. cara buka file
    vi namafile
+   setelah itu ketikkan i untuk menulis
 4. ketika ingin menulis di file tersebut, tekan i dan tuliskan
 5. cara keluar dari folder
    tekan esc dan tuliskan
    :wq
+6. untuk melihat file tuliskan
+   cat namafile
+7. untuk jalankan filenya maka 
+   - masuk dahulu ke node dengan ketikkan
+     node
+   - lalu ketikkan
+     .load 
+   - ktika ingin simpan maka ketikkan
+     .save namafile
+   - ketika melakukan kesalahan ketika ketik
+      .break
+      atau
+      .clear
+   - keluar
+     .exit
+8. cara hapus filenya
+   rm namafile
+
