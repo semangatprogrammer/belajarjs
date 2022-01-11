@@ -1,0 +1,4 @@
+catatan tentang module npm dan koneksi
+1. cara membuat link antar file di javascript dengan membuat code require
+   require 'namafile'
+
