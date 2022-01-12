@@ -21,6 +21,13 @@ apabila penulisan diikuti dengan folder,
         console.log(e)
     }
 
-4. cara untuk menamngkap file asinkronious
+4. cara untuk menulis file asinkronious
+fs.writeFile(
+    'data/test.txt',
+    'Hello World menulis data secara asyncronous',
+    (err) => {
+        console.log(err)
+    },
+)
 
-fs.writeFile('data/test.txt','Hello World menulis data secara asyncronous');
+5. cara membaca file syncrounous
