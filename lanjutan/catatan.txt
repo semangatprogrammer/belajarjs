@@ -14,9 +14,13 @@ apabila penulisan diikuti dengan folder,
 - bila folder ada, tetapi file tidak ada, maka file akan dibuat baru
 - bile folder ada dan file ada, maka isi akan ditimpa
 
-3. untuk menangkap error bisa pakai try catch
-try{
-fs.writeFileSync('data/test.text', 'Hello  World secara syncronous')
-}catch(e){
-    console.log(e)
-}
+3. untuk menangkap error bisa pakai try catch sinkronous
+    try{
+        fs.writeFileSync('data/test.txt', 'Hello  World secara syncronous')
+    }catch(e){
+        console.log(e)
+    }
+
+4. cara untuk menamngkap file asinkronious
+
+fs.writeFile('data/test.txt','Hello World menulis data secara asyncronous');
