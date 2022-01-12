@@ -1,0 +1,22 @@
+untuk membuat coremodule
+1. lakukan koneksi ke file system 
+   const fs = require('fs')
+
+//menuliskan file ke syncronous
+2. fs.writeFileSync('test.text', 'Hello  World secara syncronous')
+apabila file test.text tidak ada maka akan dibuat file test baru
+dan diisikan datanya yaitu Hello world secara syncronous,
+namun apabila dituliskan
+
+2. fs.writeFileSync('data/test.text', 'Hello  World secara syncronous')
+apabila penulisan diikuti dengan folder, 
+- bila folder tersebut tidak ada, file tidak akan dituliskan
+- bila folder ada, tetapi file tidak ada, maka file akan dibuat baru
+- bile folder ada dan file ada, maka isi akan ditimpa
+
+3. untuk menangkap error bisa pakai try catch
+try{
+fs.writeFileSync('data/test.text', 'Hello  World secara syncronous')
+}catch(e){
+    console.log(e)
+}
